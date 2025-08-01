@@ -3,7 +3,7 @@ import Achievement from "./Achievement";
 
 const Studio = () => {
   return (
-    <div className="mt-10 md:mt-36 text-white md:text-black  bg-[#221429] md:bg-[#f8f4f3] max-w-[600px] mx-auto md:bg-none h-[1200px] w-full ">
+    <div className="mt-10 md:mt-36 text-white md:text-black  bg-[#221429] md:bg-[#f8f4f3] max-w-[900px] mx-auto md:bg-none h-[1200px] w-full ">
       <div>
         <p className=" py-10  text-2xl px-5 md:px-0 md:text-5xl font-bold">
           Lollypop Design Studio is a Leading UI UX design agency driven by

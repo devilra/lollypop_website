@@ -6,7 +6,7 @@ const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
 
   return (
-    <nav className="text-sm font-medium md:px-6 py-12">
+    <nav className="text-sm font-medium md:px-56 py-12 md:pt-11 ">
       <div className="flex justify-between items-center">
         <div className="flex items-center gap-2 text-red-500 font-bold text-base">
           <span>Global</span>

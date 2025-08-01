@@ -2,7 +2,7 @@ import React from "react";
 
 const LatestWork = () => {
   return (
-    <div className="">
+    <div className="md:ml-20 md:mt-10">
       <div>
         <h1 className="text-xl md:text-5xl font-bold">Our Latest Work</h1>
         <p className="md:text-2xl md:w-[500px] py-5">
