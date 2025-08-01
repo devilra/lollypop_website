@@ -16,19 +16,29 @@ export default function Footer() {
           Follow our work
         </h4>
         <div className="flex flex-wrap justify-center md:justify-between md:text-3xl text-lg gap-6 font-bold">
-          <a href="#" className="hover:text-red-500 flex items-center gap-2">
+          <a
+            href="#"
+            className="hover:text-red-500 font-extrabold text-[#221429] flex items-center gap-2">
             LinkedIn
           </a>
-          <a href="#" className="hover:text-red-500 flex items-center gap-2">
+          <a
+            href="#"
+            className="hover:text-red-500 font-extrabold text-[#221429] flex items-center gap-2">
             Instagram
           </a>
-          <a href="#" className="hover:text-red-500 flex items-center gap-2">
+          <a
+            href="#"
+            className="hover:text-red-500 font-extrabold text-[#221429] flex items-center gap-2">
             X
           </a>
-          <a href="#" className="hover:text-red-500 flex items-center gap-2">
+          <a
+            href="#"
+            className="hover:text-red-500 font-extrabold text-[#221429] flex items-center gap-2">
             Facebook
           </a>
-          <a href="#" className="hover:text-red-500 flex items-center gap-2">
+          <a
+            href="#"
+            className="hover:text-red-500 font-extrabold text-[#221429] flex items-center gap-2">
             Dribbble
           </a>
         </div>
@@ -38,7 +48,7 @@ export default function Footer() {
       <div className="md:flex">
         <div className="grid grid-cols-2 md:flex  sm:grid-cols-4 gap-6 text-sm font-medium md:order-2 mt-10">
           <div>
-            <p className="font-bold mb-1">India</p>
+            <p className="font-bold text-[#221429] mb-1">India</p>
             <ul>
               <li>Bangalore</li>
               <li>Mumbai</li>
@@ -47,7 +57,7 @@ export default function Footer() {
             </ul>
           </div>
           <div>
-            <p className="font-bold mb-1">USA</p>
+            <p className="font-bold text-[#221429] mb-1">USA</p>
             <ul>
               <li>San Jose</li>
               <li>Dallas</li>
@@ -55,13 +65,13 @@ export default function Footer() {
             </ul>
           </div>
           <div>
-            <p className="font-bold mb-1">UAE</p>
+            <p className="font-bold text-[#221429] mb-1">UAE</p>
             <ul>
               <li>Dubai</li>
             </ul>
           </div>
           <div>
-            <p className="font-bold mb-1">Vietnam</p>
+            <p className="font-bold text-[#221429] mb-1">Vietnam</p>
             <ul>
               <li>Ho Chi Minh City</li>
             </ul>
@@ -69,13 +79,13 @@ export default function Footer() {
         </div>
 
         {/* Section: Logo + Description */}
-        <div className="mt-12 flex flex-col items-center md:items-start text-center md:text-left md:order-1">
+        <div className="mt-12 flex flex-col md:mt-20 items-center md:items-start text-center md:text-left md:order-1">
           <img
             src="https://lollypop.design/wp-content/themes/lollypop/images/lollypop-logo.svg"
             alt="Lollypop Logo"
             className="w-40 h-auto mb-4"
           />
-          <p className="text-sm max-w-md">
+          <p className="text-sm max-w-md md:w-[300px] md:mt-5">
             A <strong>Terralogic</strong> company crafting meaningful
             experiences through Research, Design and Development.
           </p>

@@ -6,15 +6,15 @@ const Domains = () => {
   return (
     <div className="mt-16 md:mt-40">
       <div>
-        <h1 className="text-3xl font-bold md:text-5xl leading-2 md:leading-1">
+        <h1 className="text-3xl md:w-[600px] md:ml-36 text-[#221429] font-bold md:text-5xl leading-2 md:leading-1">
           Our work spans across 15+ domains and 8+ industries in transforming
           brands digitally.
         </h1>
-        <p className="py-7 text-lg md:text-2xl w-full">
+        <p className="py-7 md:w-[700px] md:ml-36 text-lg md:text-2xl w-full">
           Our knowledge & experience across industries empower us to take up new
           challenges and build impactful products and solutions.
         </p>
-        <div className="mt-5 md:flex md:justify-between gap-10 w-full">
+        <div className="mt-5 md:flex md:ml-36 md:w-[700px] md:justify-between gap-10 w-full">
           <div className="">
             <h1 className="font-bold text-lg md:text-2xl">
               Healthcare and Wellness
@@ -39,7 +39,7 @@ const Domains = () => {
             </p>
           </div>
         </div>
-        <div className="mt-5 md:flex md:justify-between gap-10 w-full md:mt-20">
+        <div className="mt-5 md:flex md:justify-between md:ml-36 md:w-[700px] gap-10 w-full md:mt-20">
           <div className="">
             <h1 className="font-bold text-lg md:text-2xl">
               Healthcare and Wellness
@@ -64,7 +64,7 @@ const Domains = () => {
             </p>
           </div>
         </div>
-        <div className="md:mt-16 mt-10 md:text-[14px]">
+        <div className="md:mt-16 mt-10 md:ml-36 md:text-[14px]">
           <Link className="text-[#FD2E35]  font-sans  ">
             View All Industries
           </Link>
@@ -72,8 +72,8 @@ const Domains = () => {
         </div>
       </div>
       <div className="mt-16 md:mt-28">
-        <div>
-          <h1 className="text-2xl md:text-[52px] text-[#221429] font-bold">
+        <div className="md:ml-36">
+          <h1 className="text-2xl md:text-[52px]  text-[#221429] font-bold">
             Our Stories
           </h1>
           <p className="md:py-10 py-5 text-[#221429] text-xl md:text-2xl">

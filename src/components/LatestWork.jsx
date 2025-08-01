@@ -2,15 +2,15 @@ import React from "react";
 
 const LatestWork = () => {
   return (
-    <div className="md:ml-20 md:mt-10">
-      <div>
+    <div className="md:ml-28 md:mt-10 text-[#221429]">
+      <div className="md:ml-36">
         <h1 className="text-xl md:text-5xl font-bold">Our Latest Work</h1>
         <p className="md:text-2xl md:w-[500px] py-5">
           Check out our stories of how process-driven creativity helps brands
           transform ideas into real results—step by step
         </p>
       </div>
-      <div className="grid grid-cols-1 md:grid-cols-3 mt-5 gap-5">
+      <div className="grid grid-cols-1 md:grid-cols-3 mt-5 md:mr-36 gap-5">
         <img
           src="/latest/latest1.webp"
           alt="latest"
@@ -27,7 +27,7 @@ const LatestWork = () => {
           className="h-[400px] w-full hidden md:flex"
         />
       </div>
-      <div className="mt-10 md:mt-36 md:w-[700px] mx-auto">
+      <div className="mt-10 md:mt-36 md:w-[700px] md:ml-32">
         <h1 className="text-xl md:text-5xl font-bold">Our Recent Clients</h1>
         <p className="md:text-2xl md:w-[500px] py-5">
           From early-stage startups to Fortune 500 companies, we have crafted

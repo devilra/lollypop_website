@@ -8,8 +8,8 @@ const Hero = () => {
     <section className="md:px-2 py-5 md:py-12">
       <div className="md:pl-40">
         <div className=" font-bold flex justify-start items-start ">
-          <span className="md:w-[5px] hidden md:h-10 md:mr-10 md:mt-10 md:inline-block md:bg-red-500 rounded-full"></span>
-          <h1 className="md:mt-7 text-3xl md:text-6xl">
+          <span className="md:w-[5px] hidden md:h-12 md:mr-10 md:mt-10 md:inline-block md:bg-[#FD2E35] rounded-full"></span>
+          <h1 className="md:mt-7 text-3xl text-[#221429] md:text-6xl">
             We're a Global UI UX Design
             <br />
             Agency Curating User <br />
@@ -25,15 +25,17 @@ const Hero = () => {
           <h1 className="text-[#221429] font-bold text-lg md:xl">
             Two Billion+
           </h1>
-          <p className="text-[13px]">Lives Touched</p>
+          <p className="text-[13px] text-[#221429]">Lives Touched</p>
         </div>
         <div>
           <h1 className="text-[#221429] font-bold text-lg md:xl">50+</h1>
-          <p className="text-[13px] md:text-[15px]">Global Awards</p>
+          <p className="text-[13px] md:text-[15px] text-[#221429]">
+            Global Awards
+          </p>
         </div>
         <div>
           <h1 className="text-[#221429] font-bold text-lg md:xl">1000+</h1>
-          <p className="text-[13px] md:text-[15px]">Clients</p>
+          <p className="text-[13px] md:text-[15px] text-[#221429]">Clients</p>
         </div>
       </div>
       <div className="flex justify-center items-center">
@@ -44,7 +46,7 @@ const Hero = () => {
         />
       </div>
       <div className="md:max-w-[700px] mx-auto ">
-        <p className="font-bold text-2xl md:text-5xl">
+        <p className="font-bold text-2xl text-[#221429] tracking-[0.3px] md:text-5xl">
           Lollypop Redefines User Experiences Through AI-Powered Innovative,
           Intuitive, and Impactful Designs!
         </p>
