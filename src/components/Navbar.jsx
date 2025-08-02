@@ -6,10 +6,13 @@ const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
 
   return (
-    <nav className="text-sm font-light md:px-56 py-12 md:pt-11 relative">
+    <nav className="text-sm font-light md:px-40 py-12 md:pt-11 relative">
       {/* Navbar Top Section */}
       <div className="flex justify-between items-center">
-        <div className="flex items-center gap-2 text-base">
+        <div className="flex items-center gap-5 text-base">
+          <Link to="/">
+            <img src="/UCD-Logo.png" alt="UCD" className="h-10 md:h-12" />
+          </Link>
           <span className="text-[#FD2E35] md:text-[14px]">Global</span>
           <span className="text-black font-normal hidden text-[14px] sm:inline">
             UX UI Design Studio
@@ -23,10 +26,16 @@ const Navbar = () => {
             className="hover:text-[#FD2E35] transition duration-700">
             Services
           </Link>
-          <Link>Projects</Link>
-          <Link>Process</Link>
-          <Link>Industries</Link>
-          <Link to="/" className="text-[#FD2E35]">
+          <Link className="hover:text-[#FD2E35] transition duration-700">
+            Projects
+          </Link>
+          <Link className="hover:text-[#FD2E35] transition duration-700">
+            Process
+          </Link>
+          <Link className="hover:text-[#FD2E35] transition duration-700">
+            Industries
+          </Link>
+          <Link to="/" className="text-[#FD2E35] ">
             Let's Talk
             <div className="w-8 h-[1px] bg-[#FD2E35] mt-1"></div>
           </Link>

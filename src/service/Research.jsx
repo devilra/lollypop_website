@@ -46,7 +46,7 @@ const StickyTabSections = () => {
 
   const scrollToSection = (key) => {
     setActiveTab(key);
-    console.log(key);
+    //console.log(key);
     const ref = sectionRefs[key];
     if (ref.current) {
       ref.current.scrollIntoView({ behavior: "smooth", block: "start" });
