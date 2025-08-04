@@ -81,7 +81,7 @@ export default function ServiceFooter() {
         {/* Section: Logo + Description */}
         <div className="mt-12 flex flex-col md:mt-20 items-center md:items-start text-center md:text-left md:order-1">
           <img
-            src="https://lollypop.design/wp-content/themes/lollypop/images/lollypop-logo.svg"
+            src="/UCD-Logo.png"
             alt="Lollypop Logo"
             className="w-40 h-auto mb-4"
           />
@@ -92,7 +92,7 @@ export default function ServiceFooter() {
 
           {/* Bottom Footer */}
           <div className="mt-10 border-t pt-4 text-xs flex flex-col md:flex-row justify-between items-center gap-2 text-gray-500">
-            <p>© 2025 Lollypop - A Terralogic company</p>
+            <p>© 2025 Ucdglobal - A Terralogic company</p>
             <div className="flex gap-4">
               <a href="#" className="hover:underline">
                 FAQs
