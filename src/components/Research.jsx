@@ -118,7 +118,7 @@ const Research = () => {
             digital marketing strategies, SEO, content, and performance
             campaigns tailored to your audience.
           </p>
-          <div className="mt-5 md:block hidden md:-ml-14">
+          <div className="mt-5 md:block hidden md:ml-2">
             <button className=" text-[#FD2E35] text-[13px]">Learn More</button>
             <div className="w-[20px] h-[1px] bg-[#FD2E35] rounded-2xl mt-1"></div>
           </div>

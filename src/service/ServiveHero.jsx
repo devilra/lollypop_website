@@ -8,14 +8,18 @@ const ServiceHero = () => {
   return (
     <section>
       <div className="md:pl-40 md:pt-16">
-        <h1 className="md:pl-14 text-[14px]  ">UI UX Design Services</h1>
+        <h1 className="md:pl-14 text-[14px]">
+          Designing, Building & Elevating Digital Experiences That Put People
+          First
+        </h1>
         <div className="flex justify-start items-start ">
           <span className="md:w-[5px] hidden md:h-12 md:mr-10 md:mt-10 md:inline-block md:bg-[#FD2E35] rounded-full"></span>
-          <h1 className="md:mt-5 text-3xl py-5 md:py-0 font-bold text-[#221429] md:text-6xl">
-            Research for Insights.
+          <h1 className="md:mt-5 text-3xl py-5 md:py-0 font-bold text-[#221429] md:text-4xl">
+            We blend research,
             <br />
-            Design for Users. <br />
-            Build for future. <br />
+            creativity, technology, and marketing to craft user-first products
+            and digital <br />
+            brands that stand out and scale. <br />
             <span className="text-[#221429] text-xl md:text-2xl font-light md:w-[700px] inline-block md:my-5 my-3">
               We thrive at the intersection of design and business through our
               UI UX design services and craft beautiful and functional
@@ -31,10 +35,15 @@ const ServiceHero = () => {
 
             <div className="relative z-10">
               <h2 className="text-2xl sm:text-3xl font-semibold text-[#221429]">
-                Got a project idea in mind?
+                Call to Action Section
               </h2>
               <p className="text-base sm:text-lg text-[#221429] mt-2">
-                Let's craft brilliance together
+                Your next big digital move starts here.
+              </p>
+              <p className="text-[12px] text-[#535153] mt-3 md:text-[18px]">
+                Whether you're crafting a new idea or refining what already
+                exists — our team is here to help you shape, design, and grow
+                your product with clarity and care.
               </p>
               <a
                 href="#contact"

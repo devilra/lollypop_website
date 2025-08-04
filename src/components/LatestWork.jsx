@@ -1,16 +1,18 @@
 import React from "react";
+import CaseStudies from "./Industries";
+import { Link } from "react-router-dom";
 
 const LatestWork = () => {
   return (
     <div className="md:ml-28 md:mt-10 text-[#221429]">
       <div className="md:ml-36">
-        <h1 className="text-xl md:text-5xl font-bold">Our Latest Work</h1>
+        <h1 className="text-xl md:text-5xl font-bold">Industries We Serve</h1>
         <p className="md:text-2xl md:w-[500px] py-5">
-          Check out our stories of how process-driven creativity helps brands
-          transform ideas into real results—step by step
+          We’ve partnered with startups, enterprises, and everything in between
+          across industries like:
         </p>
       </div>
-      <div className="grid grid-cols-1 md:grid-cols-3 mt-5 md:mr-36 gap-5">
+      {/* <div className="grid grid-cols-1 md:grid-cols-3 mt-5 md:mr-36 gap-5">
         <img
           src="/latest/latest1.webp"
           alt="latest"
@@ -26,12 +28,20 @@ const LatestWork = () => {
           alt="latest"
           className="h-[400px] w-full hidden md:flex"
         />
-      </div>
+      </div> */}
+
+      {/* Case Studies */}
+
+      <CaseStudies />
+
       <div className="mt-10 md:mt-36 md:w-[700px] md:ml-32">
-        <h1 className="text-xl md:text-5xl font-bold">Our Recent Clients</h1>
+        <h1 className="text-xl md:text-5xl font-bold">
+          Trusted by Visionary Brands
+        </h1>
         <p className="md:text-2xl md:w-[500px] py-5">
-          From early-stage startups to Fortune 500 companies, we have crafted
-          many stories that have made the real impact.
+          From global names to rising startups, our partners trust us to bring
+          their ideas to life. Sony, TAFE, Citizen Watches, Securra, Aspirestar,
+          Maestro’s Music, Tamilnadu Police, Trendalyze & more.
         </p>
         <div className="mt-5 flex gap-6">
           <div className="h-[300px] flex flex-col justify-around items-center w-full rounded-md md:rounded-none md:w-[220px] bg-white">
@@ -48,10 +58,10 @@ const LatestWork = () => {
             <div className="h-[300px]  md:flex flex-col justify-around items-center w-full rounded-md md:rounded-none md:w-[220px] bg-white">
               <img src="/client/Aha.svg" alt="Upstox" className="h-10 " />
               <div>
-                <h1 className="text-center py-5 text-neutral-950">Upstox</h1>
+                <h1 className="text-center py-10 text-neutral-950">Aha</h1>
                 <p className="text-center px-20 md:px-5 ">
-                  Boosted user engagement through custom illustrations & design
-                  enhancements.
+                  Developed a versatile content experience for cross-device
+                  users.
                 </p>
               </div>
             </div>
@@ -60,14 +70,18 @@ const LatestWork = () => {
             <div className="h-[300px] flex flex-col justify-around items-center w-full rounded-md md:rounded-none md:w-[220px] bg-white">
               <img src="/client/SBIcaps.svg" alt="Upstox" className="h-6 " />
               <div>
-                <h1 className="text-center py-5 text-neutral-950">Upstox</h1>
+                <h1 className="text-center py-5 text-neutral-950">SBI Caps</h1>
                 <p className="text-center px-20 md:px-5 ">
-                  Boosted user engagement through custom illustrations & design
-                  enhancements.
+                  Led a full-scale website redesign for SBI Caps, elevating
+                  their digital identity.
                 </p>
               </div>
             </div>
           </div>
+        </div>
+        <div className=" group cursor-pointer mt-10">
+          <p className="text-[#FD2E35] text-sm">View All Clients</p>
+          <div className="h-[1px] w-[20px] bg-[#FD2E35] transition-all duration-500 group-hover:w-[100px]"></div>
         </div>
       </div>
     </div>

@@ -85,7 +85,7 @@ const Domains = () => {
               <img
                 src="/stories/story1.webp"
                 alt="story"
-                className="w-full md:h-[330px] md:w-[310px] md:mt-10 md:object-cover "
+                className="w-full object-cover transform transition-transform  hover:scale-110 duration-500 md:h-[330px] md:w-[310px] md:mt-10 md:object-cover "
               />
               <div className="md:pl-10 mt-5 md:mt-0 ">
                 <h1 className="text-[#221429] font-extrabold text-[12px]">
@@ -115,9 +115,9 @@ const Domains = () => {
           <div className="mt-3">
             <div className="md:flex ">
               <img
-                src="/stories/story2.webp"
+                src="/studio/studio4.webp"
                 alt="story"
-                className="w-full hidden md:block md:h-[210px] md:w-[310px] md:mt-10 md:object-contain "
+                className="w-full hidden object-cover transform transition-transform  hover:scale-110 duration-500 md:block md:h-[210px] md:w-[310px] md:mt-10 md:object-contain "
               />
               <img
                 src="/stories/story3.webp"
@@ -129,11 +129,11 @@ const Domains = () => {
                   BLOG
                 </h1>
                 <h1 className="text-[#221429] text-xl pt-3 md:text-3xl font-extrabold ">
-                  How to Conduct Effective User Research for Better UI/UX Design
+                  How AI is Reshaping the Banking Customer Experience
                 </h1>
 
                 <p className="text-[#221429] text-[12px] pt-1 md:pt-3 md:text-[13px]">
-                  By Unnati Senani on 31 July, 2025
+                  By Minh Anh Trần on 5 July, 2025
                 </p>
               </div>
             </div>
@@ -145,10 +145,14 @@ const Domains = () => {
             </div>
           </div>
           <div className="mt-16 md:mt-48">
-            <div className="bg-[#221429] h-[360px] md:h-[400px] w-full flex flex-col pt-16 px-10 md:px-28 items-center">
-              <h1 className="text-white text-2xl md:text-3xl">Got An Idea?</h1>
+            <div className="bg-[#221429] h-[600px] md:h-[680px] w-full flex flex-col pt-16 px-10 md:px-28 items-center">
+              <h1 className="text-white text-2xl md:text-3xl">
+                Call to Action
+              </h1>
               <p className="text-3xl md:text-5xl py-8 md:py-10 text-center text-white font-extrabold">
-                Let’s craft brilliance together!
+                Got an idea? Let’s build something remarkable together. Talk to
+                us about your project, and we’ll help you shape it into
+                something people will love.
               </p>
               <button className="text-[#FD2E35] transition duration-700 hover:bg-[#FD2E35] hover:text-white px-7 rounded-full py-3 border-[2px] border-[#FD2E35] font-bold bg-[#221429]">
                 Get in Touch

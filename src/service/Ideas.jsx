@@ -5,6 +5,14 @@ const Ideas = () => {
     <div>
       <div className="md:ml-44 mt-10 md:mt-28">
         <h1 className="text-2xl md:text-[40px] md:w-[600px] md:leading-tight font-bold">
+          Call to Action Section
+        </h1>
+        <p className="py-5 md:text-[24px] md:w-[500px]">
+          Your next big digital move starts here. Whether you're crafting a new
+          idea or refining what already exists — our team is here to help you
+          shape, design, and grow your product with clarity and care.
+        </p>
+        <h1 className="text-2xl md:text-[40px] md:w-[600px] md:leading-tight font-bold">
           We transform abstract ideas into concrete ui ux design Services
         </h1>
         <p className="py-5 md:text-[24px] md:w-[500px]">

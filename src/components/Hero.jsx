@@ -50,18 +50,18 @@ const Hero = () => {
         />
       </div>
       <div className="md:max-w-[700px] mx-auto ">
-        {/* <p className="font-bold text-2xl text-[#221429] tracking-[0.3px] md:text-5xl">
-          Lollypop Redefines User Experiences Through AI-Powered Innovative,
-          Intuitive, and Impactful Designs!
-        </p> */}
+        <p className="font-bold text-2xl text-[#221429] tracking-[0.3px] md:text-5xl">
+          At UCD, we blend design, strategy, technology, and marketing to create
+          experiences people love and businesses need.
+        </p>
         <p className="text-[#221429] mt-5 md:text-2xl pb-8 md:pb-24 tracking-[1px]">
-          Looking to build something exceptional? UCD is a full-service UI/UX,
-          branding, and digital growth agency that helps turn bold ideas into
-          well-designed, scalable digital experiences. Whether you're building a
-          product from scratch, reimagining an existing platform, or launching
-          your brand into new markets — we partner with you every step of the
-          way. We focus on creating user-centric experiences that deliver real
-          impact.
+          Be it turning Looking to build something exceptional? UCD is a
+          full-service UI/UX, branding, and digital growth agency that helps
+          turn bold ideas into well-designed, scalable digital experiences.
+          Whether you're building a product from scratch, reimagining an
+          existing platform, or launching your brand into new markets — we
+          partner with you every step of the way. We focus on creating
+          user-centric experiences that deliver real impact.
         </p>
       </div>
       <Research />
