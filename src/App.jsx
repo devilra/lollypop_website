@@ -2,8 +2,7 @@ import React from "react";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import Home from "./pages/Home";
 import Service from "./service/Service";
-import Navbar from "./components/Navbar";
-import ScrollHighlightComponent from "./pages/Scroll";
+import Process from "./process/Process";
 
 const App = () => {
   return (
@@ -13,6 +12,7 @@ const App = () => {
         <Route path="/" element={<Home />} />
         <Route path="/service" element={<Service />} />
         {/* <Route path="/scroll" element={<ScrollHighlightComponent />} /> */}
+        <Route path="/process" element={<Process />} />
       </Routes>
     </Router>
   );

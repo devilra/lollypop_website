@@ -29,7 +29,9 @@ const Navbar = () => {
           <Link className="hover:text-[#FD2E35] transition duration-700">
             Projects
           </Link>
-          <Link className="hover:text-[#FD2E35] transition duration-700">
+          <Link
+            to="/process"
+            className="hover:text-[#FD2E35] transition duration-700">
             Process
           </Link>
           <Link className="hover:text-[#FD2E35] transition duration-700">
@@ -39,7 +41,9 @@ const Navbar = () => {
             Let's Talk
             <div className="w-8 h-[1px] bg-[#FD2E35] mt-1"></div>
           </Link>
-          <div className="space-y-2">
+          <div
+            className="space-y-2 cursor-pointer"
+            onClick={() => setIsOpen(!isOpen)}>
             <div className="w-4 h-[3px] bg-[#FD2E35] rounded-lg"></div>
             <div className="w-4 h-[3px] bg-[#FD2E35] rounded-lg"></div>
           </div>
@@ -55,16 +59,20 @@ const Navbar = () => {
 
       {/* Mobile Menu Panel */}
       <div
-        className={`md:hidden fixed top-0 left-0 w-full h-full bg-white z-40 transition-transform duration-500 ease-in-out ${
+        className={` fixed top-0 left-0 w-full h-full bg-white z-40 transition-transform duration-500 ease-in-out ${
           isOpen ? "translate-y-0" : "-translate-y-full"
         }`}>
         <div className="flex justify-between items-center p-6 border-b">
           <div className="text-lg font-semibold text-[#FD2E35]">
-            Global Studio
+            <Link to="/">
+              <img src="/UCD-Logo.png" alt="UCD" className="h-10 md:h-12" />
+            </Link>
           </div>
-          {/* <button onClick={() => setIsOpen(false)} className="text-2xl">
+          <button
+            onClick={() => setIsOpen(false)}
+            className="text-2xl hidden md:block">
             <HiX />
-          </button> */}
+          </button>
         </div>
         <div className="flex flex-col items-center gap-6 mt-10 text-gray-800 text-lg">
           <Link onClick={() => setIsOpen(false)} to="/service">
