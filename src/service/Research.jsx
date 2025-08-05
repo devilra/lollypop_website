@@ -1,7 +1,5 @@
 // StickyTabSections.jsx
 import React, { useEffect, useRef, useState } from "react";
-import Footer from "../components/Footer";
-import ServiceFooter from "./SeviceFooter";
 
 const StickyTabSections = () => {
   const [activeTab, setActiveTab] = useState("research");

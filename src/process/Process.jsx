@@ -1,6 +1,7 @@
 import React from "react";
 import Navbar from "../components/Navbar";
 import ProcessHero from "./ProcessHero";
+import ProcessFooter from "./ProcessFooter";
 
 const Process = () => {
   console.log("Service Page");
@@ -11,6 +12,7 @@ const Process = () => {
           <Navbar />
         </div>
         <ProcessHero />
+        <ProcessFooter />
       </div>
     </div>
   );

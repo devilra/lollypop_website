@@ -95,6 +95,7 @@ const Navbar = () => {
               Projects
             </Link>
             <Link
+              to="/process"
               className="hover:opacity-60 transition duration-500"
               onClick={() => setIsOpen(false)}>
               Process
