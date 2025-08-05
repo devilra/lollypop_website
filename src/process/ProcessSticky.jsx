@@ -54,7 +54,7 @@ const ProcessSticky = () => {
         {/* Sticky Tab Bar */}
         <div
           ref={tabBarRef}
-          className="flex justify-between  sticky top-0 gap-5 z-50 bg-[#f8f4f3] py-10 ">
+          className="flex justify-between  sticky top-0 gap-5  bg-[#f8f4f3] py-10 ">
           {[
             {
               title: "For SMEs and Conglomerates",
@@ -115,105 +115,6 @@ const ProcessSticky = () => {
               <li>Build</li>
               <li>Amplify</li>
             </ul>
-
-            {/* <div className="mt-14">
-              <h1 className="font-mono text-[#FD2E35] md:text-xl font-extrabold underline py-5">
-                Design:
-              </h1>
-
-              <h1 className="text-[15px] md:text-lg font-extrabold ">
-                Ideas take shape through user-centered creativity.
-              </h1>
-              <p className="text-md md:text-xl mt-5 ">
-                Using everything we’ve learned, we build interfaces and
-                interactions that are human, functional, and brand-aligned.
-                You’ll see your product evolve with every round of feedback.
-              </p>
-              <h1 className="text-[15px] md:text-lg font-extrabold mt-5">
-                Activities include:
-              </h1>
-              <ul className="list-disc space-y-3 mt-5 marker:text-[12px] text-[14px] ml-10">
-                <li>Information Architecture</li>
-                <li>Wireframes & Low-Fidelity Sketches</li>
-                <li>UI Design & Visual Systems</li>
-                <li>Design Systems & Component Libraries</li>
-                <li>Interactive Prototyping</li>
-                <li>Usability Testing</li>
-              </ul>
-              <h1 className="text-[15px] md:text-lg font-extrabold mt-5">
-                What to expect:
-              </h1>
-              <p className="text-md md:text-xl mt-5 ">
-                Collaborative design sprints with frequent reviews, iteration
-                loops, and visual storytelling to align business goals with user
-                expectations.
-              </p>
-            </div> */}
-            {/* <div className="mt-14">
-              <h1 className="font-mono text-[#FD2E35] md:text-xl font-extrabold underline py-5">
-                Build:
-              </h1>
-
-              <h1 className="text-[15px] md:text-lg font-extrabold ">
-                Turning design into reliable, responsive products.
-              </h1>
-              <p className="text-md md:text-xl mt-5 ">
-                Our engineering team brings your vision to life with scalable,
-                secure technology. We ensure performance across devices and
-                readiness for launch.
-              </p>
-              <h1 className="text-[15px] md:text-lg font-extrabold mt-5">
-                Activities include:
-              </h1>
-              <ul className="list-disc space-y-3 mt-5 marker:text-[12px] text-[14px] ml-10">
-                <li>Frontend & Backend Development</li>
-                <li>Web & App Engineering</li>
-                <li>CMS/Headless Builds</li>
-                <li>3rd-Party Integrations</li>
-                <li>Testing, QA & Automation</li>
-                <li>DevOps & Deployment Pipelines</li>
-              </ul>
-              <h1 className="text-[15px] md:text-lg font-extrabold mt-5">
-                What to expect:
-              </h1>
-              <p className="text-md md:text-xl mt-5 ">
-                End-to-end implementation, from code to launch. We focus on
-                performance, security, and seamless integration with your tech
-                stack.
-              </p>
-            </div> */}
-            {/* <div className="mt-14">
-              <h1 className="font-mono text-[#FD2E35] md:text-xl font-extrabold underline py-5">
-                Amplify:
-              </h1>
-
-              <h1 className="text-[15px] md:text-lg font-extrabold ">
-                Build is not the end. It’s the beginning of growth.
-              </h1>
-              <p className="text-md md:text-xl mt-5 ">
-                Now we take your product to market—strategically. Our marketing,
-                content, and analytics team ensures the right people discover,
-                use, and love your product.
-              </p>
-              <h1 className="text-[15px] md:text-lg font-extrabold mt-5">
-                Activities include:
-              </h1>
-              <ul className="list-disc space-y-3 mt-5 marker:text-[12px] text-[14px] ml-10">
-                <li>Go-to-Market Planning</li>
-                <li>SEO & Content Optimization</li>
-                <li>Brand Messaging & Campaign Strategy</li>
-                <li>Social Media & Paid Marketing</li>
-                <li>Product Video Assets</li>
-                <li>Growth Analytics & Feedback Loops</li>
-              </ul>
-              <h1 className="text-[15px] md:text-lg font-extrabold mt-5">
-                What to expect:
-              </h1>
-              <p className="text-md md:text-xl mt-5 ">
-                A strategic post-launch phase that ensures visibility, traction,
-                and continuous learning based on real user behavior.
-              </p>
-            </div> */}
           </div>
           <div>
             <div className="mt-14 md:flex justify-between gap-10">
