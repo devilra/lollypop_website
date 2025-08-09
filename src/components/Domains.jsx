@@ -145,14 +145,12 @@ const Domains = () => {
             </div>
           </div>
           <div className="mt-16 md:mt-48">
-            <div className="bg-[#221429] h-[600px] md:h-[680px] w-full flex flex-col pt-16 px-10 md:px-28 items-center">
+            <div className="bg-[#221429] h-[600px] md:h-[520px] w-full flex flex-col pt-16 px-10 md:px-28 items-center">
               <h1 className="text-white text-2xl md:text-3xl">
                 Call to Action
               </h1>
-              <p className="text-3xl md:text-5xl py-8 md:py-10 text-center text-white font-extrabold">
-                Got an idea? Let’s build something remarkable together. Talk to
-                us about your project, and we’ll help you shape it into
-                something people will love.
+              <p className="text-3xl md:text-5xl py-8 md:py-10 text-center md:leading-[60px] text-white font-extrabold">
+                Got an idea? Let’s build something remarkable together.
               </p>
               <button className="text-[#FD2E35] transition duration-700 hover:bg-[#FD2E35] hover:text-white px-7 rounded-full py-3 border-[2px] border-[#FD2E35] font-bold bg-[#221429]">
                 Get in Touch

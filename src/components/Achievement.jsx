@@ -13,7 +13,7 @@ const Achievement = () => {
           many awards and recognitions for exceptional digital experiences.
         </p>
       </div>
-      <div className="mt-16 md:ml-36 px-4 w-full md:px-0 grid grid-cols-2 md:gap-6 gap-4 md:grid-cols-3">
+      <div className="mt-16 md:ml-36 px-4 w-full md:w-[800px] md:px-0 grid grid-cols-2 md:gap-6 gap-4 md:grid-cols-3">
         <div>
           <img
             src="/studio/award.svg"
