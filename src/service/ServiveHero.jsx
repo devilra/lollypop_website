@@ -34,7 +34,7 @@ const ServiceHero = () => {
             <div className="absolute  inset-0 w-full h-full bg-gradient-to-r from-[#F2EEEB] to-transparent rounded-sm " />
 
             <div className="relative z-10">
-              <h2 className="text-2xl sm:text-3xl font-semibold text-[#221429]">
+              <h2 className="text-2xl sm:text-3xl font-extrabold text-[#221429]">
                 Call to Action Section
               </h2>
               <p className="text-base sm:text-lg text-[#221429] mt-2">

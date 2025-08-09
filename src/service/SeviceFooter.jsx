@@ -46,9 +46,11 @@ export default function ServiceFooter() {
 
       {/* Section: Locations */}
       <div className="md:flex">
-        <div className="grid grid-cols-2 md:flex  sm:grid-cols-4 gap-6 text-sm font-medium md:order-2 mt-10">
+        <div className="grid grid-cols-2 md:flex  sm:grid-cols-4 gap-6 text-sm font-light md:order-2 mt-10">
           <div>
-            <p className="font-bold text-[#221429] mb-1">India</p>
+            <p className="font-extrabold md:text-[16px] text-[#221429] mb-1">
+              India
+            </p>
             <ul>
               <li>Bangalore</li>
               <li>Mumbai</li>
@@ -57,7 +59,9 @@ export default function ServiceFooter() {
             </ul>
           </div>
           <div>
-            <p className="font-bold text-[#221429] mb-1">USA</p>
+            <p className="font-extrabold md:text-[16px] text-[#221429] mb-1">
+              USA
+            </p>
             <ul>
               <li>San Jose</li>
               <li>Dallas</li>
@@ -65,13 +69,15 @@ export default function ServiceFooter() {
             </ul>
           </div>
           <div>
-            <p className="font-bold text-[#221429] mb-1">UAE</p>
+            <p className="font-extrabold md:text-[16px] text-[#221429] mb-1">
+              UAE
+            </p>
             <ul>
               <li>Dubai</li>
             </ul>
           </div>
           <div>
-            <p className="font-bold text-[#221429] mb-1">Vietnam</p>
+            <p className="font-extrabold text-[#221429] mb-1">Vietnam</p>
             <ul>
               <li>Ho Chi Minh City</li>
             </ul>

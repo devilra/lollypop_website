@@ -55,15 +55,15 @@ const StickyTabSections = () => {
 
   return (
     <div>
-      <div className="bg-[#f8f4f3] text-[#221429] md:w-[700px] md:ml-44 mt-14 md:mt-24 ">
+      <div className="bg-[#f8f4f3] text-[#221429] md:w-[800px] md:ml-72 mt-14 md:mt-24 ">
         {/* Sticky Tab Bar */}
         <div
           ref={tabBarRef}
-          className="sticky top-0 z-50 bg-[#f8f4f3] py-10 flex justify-between gap-10 border-b border-gray-200">
+          className="sticky top-0 z-50 bg-[#f8f4f3] py-10 flex justify-between gap-14 border-b border-gray-200">
           {["research", "design", "build", "amplify"].map((key) => (
             <button
               key={key}
-              className={`text-[16px]  md:text-[25px] font-bold capitalize transition-all ${
+              className={`text-[16px]  md:text-[40px] font-extrabold capitalize transition-all ${
                 activeTab === key
                   ? "text-black underline underline-offset-4"
                   : "text-[#beb6be]"
@@ -84,7 +84,7 @@ const StickyTabSections = () => {
           </p>
           <div className="grid md:grid-cols-2 gap-10 mt-10">
             <div className="mb-3 md:mb-10">
-              <h3 className="font-bold text-xl md:text-[28px]">
+              <h3 className="font-extrabold text-xl md:text-[28px]">
                 Heuristic Evaluation
               </h3>
               <p className="text-[16px] md:w-[250px] pt-2">
@@ -93,7 +93,7 @@ const StickyTabSections = () => {
               </p>
             </div>
             <div>
-              <h3 className="font-bold text-xl md:text-[28px]">
+              <h3 className="font-extrabold text-xl md:text-[28px]">
                 Design Audits
               </h3>
               <p className="text-[16px] md:w-[250px] pt-2">
@@ -102,7 +102,7 @@ const StickyTabSections = () => {
               </p>
             </div>
             <div>
-              <h3 className="font-bold text-xl md:text-[28px]">
+              <h3 className="font-extrabold text-xl md:text-[28px]">
                 Usability Testing
               </h3>
               <p className="text-[16px] md:w-[250px] pt-2">
@@ -111,7 +111,7 @@ const StickyTabSections = () => {
               </p>
             </div>
             <div>
-              <h3 className="font-bold text-xl md:text-[28px]">
+              <h3 className="font-extrabold text-xl md:text-[28px]">
                 Ethnographic Research
               </h3>
               <p className="text-[16px] md:w-[250px] pt-2">
@@ -120,7 +120,7 @@ const StickyTabSections = () => {
               </p>
             </div>
             <div>
-              <h3 className="font-bold text-xl md:text-[28px]">
+              <h3 className="font-extrabold text-xl md:text-[28px]">
                 Emerging Trends Research
               </h3>
               <p className="text-[16px] md:w-[250px] pt-2">
@@ -129,7 +129,7 @@ const StickyTabSections = () => {
               </p>
             </div>
             <div>
-              <h3 className="font-bold text-xl md:text-[28px]">
+              <h3 className="font-extrabold text-xl md:text-[28px]">
                 UX Research (Quant & Qual)
               </h3>
               <p className="text-[16px] md:w-[250px] pt-2">
@@ -140,7 +140,7 @@ const StickyTabSections = () => {
           </div>
           <div>
             <div>
-              <h1 className="text-xl font-bold md:font-extrabold md:leading-tight mt-16 md:mt-24 md:text-[46px]">
+              <h1 className="text-xl font-extrabold md:font-extrabold md:leading-tight mt-16 md:mt-24 md:text-[46px]">
                 Clients who trusted us with Research
               </h1>
               <div className="grid grid-cols-3 mt-10 md:ml-5 md:space-y-3  md:grid-cols-4 gap-10">
@@ -213,7 +213,7 @@ const StickyTabSections = () => {
             </p>
             <div className="grid md:grid-cols-2  gap-7 md:gap-10 mt-10">
               <div className="mb-3 md:mb-16">
-                <h3 className="font-bold text-xl md:text-[28px]">
+                <h3 className="font-extrabold text-xl md:text-[28px]">
                   Brand Identity Systems
                 </h3>
                 <p className="text-[16px] md:w-[250px] pt-2">
@@ -222,7 +222,7 @@ const StickyTabSections = () => {
                 </p>
               </div>
               <div className="mb-3 md:mb-14">
-                <h3 className="font-bold text-xl md:text-[28px]">
+                <h3 className="font-extrabold text-xl md:text-[28px]">
                   User Experience Design
                 </h3>
                 <p className="text-[16px] md:w-[250px] pt-2">
@@ -232,7 +232,7 @@ const StickyTabSections = () => {
                 </p>
               </div>
               <div className="mb-3 md:mb-14">
-                <h3 className="font-bold text-xl md:text-[28px]">
+                <h3 className="font-extrabold text-xl md:text-[28px]">
                   UI/UX Design
                 </h3>
                 <p className="text-[16px] md:w-[250px] pt-2">
@@ -241,7 +241,7 @@ const StickyTabSections = () => {
                 </p>
               </div>
               <div className="mb-3 md:mb-14">
-                <h3 className="font-bold text-xl md:text-[28px]">
+                <h3 className="font-extrabold text-xl md:text-[28px]">
                   Interaction Design
                 </h3>
                 <p className="text-[16px] md:w-[250px] pt-2">
@@ -250,7 +250,7 @@ const StickyTabSections = () => {
                 </p>
               </div>
               <div className="mb-3 md:mb-14">
-                <h3 className="font-bold text-xl md:text-[28px]">
+                <h3 className="font-extrabold text-xl md:text-[28px]">
                   Design Systems
                 </h3>
                 <p className="text-[16px] md:w-[250px] pt-2">
@@ -259,7 +259,7 @@ const StickyTabSections = () => {
                 </p>
               </div>
               <div className="mb-3 md:mb-14">
-                <h3 className="font-bold text-xl md:text-[28px]">
+                <h3 className="font-extrabold text-xl md:text-[28px]">
                   Wireframes & Prototyping
                 </h3>
                 <p className="text-[16px] md:w-[250px] pt-2">
@@ -268,7 +268,7 @@ const StickyTabSections = () => {
                 </p>
               </div>
               <div className="mb-3 md:mb-14">
-                <h3 className="font-bold text-xl md:text-[28px]">
+                <h3 className="font-extrabold text-xl md:text-[28px]">
                   Visual Storytelling
                 </h3>
                 <p className="text-[16px] md:w-[250px] pt-2">
@@ -277,7 +277,7 @@ const StickyTabSections = () => {
                 </p>
               </div>
               <div className="mb-3 md:mb-14">
-                <h3 className="font-bold text-xl md:text-[28px]">
+                <h3 className="font-extrabold text-xl md:text-[28px]">
                   Accessibility-First Design
                 </h3>
                 <p className="text-[16px] md:w-[250px] pt-2">
@@ -285,16 +285,6 @@ const StickyTabSections = () => {
                   usable by all people regardless of ability.
                 </p>
               </div>
-              {/* <div className="mb-3 md:mb-14">
-                <h3 className="font-bold text-xl md:text-[28px]">
-                  Intelligent Design
-                </h3>
-                <p className="text-[16px] md:w-[250px] pt-2">
-                  A user-centric design for your AI-driven platforms. With
-                  journey visualizations, we create futuristic experience for
-                  your AI solutions
-                </p>
-              </div> */}
             </div>
           </div>
           <div>
@@ -370,7 +360,7 @@ const StickyTabSections = () => {
             </p>
             <div className="grid md:grid-cols-2  gap-7 md:gap-10 mt-10">
               <div className="mb-3 md:mb-16">
-                <h3 className="font-bold text-xl md:text-[28px]">
+                <h3 className="font-extrabold text-xl md:text-[28px]">
                   Frontend Development
                 </h3>
                 <p className="text-[16px] md:w-[250px] pt-2">
@@ -379,7 +369,7 @@ const StickyTabSections = () => {
                 </p>
               </div>
               <div className="mb-3 md:mb-14">
-                <h3 className="font-bold text-xl md:text-[28px]">
+                <h3 className="font-extrabold text-xl md:text-[28px]">
                   Backend Development
                 </h3>
                 <p className="text-[16px] md:w-[250px] pt-2">
@@ -388,7 +378,7 @@ const StickyTabSections = () => {
                 </p>
               </div>
               <div className="mb-3 md:mb-14">
-                <h3 className="font-bold text-xl md:text-[28px]">
+                <h3 className="font-extrabold text-xl md:text-[28px]">
                   Web & Mobile Apps
                 </h3>
                 <p className="text-[16px] md:w-[250px] pt-2">
@@ -397,7 +387,7 @@ const StickyTabSections = () => {
                 </p>
               </div>
               <div className="mb-3 md:mb-14">
-                <h3 className="font-bold text-xl md:text-[28px]">
+                <h3 className="font-extrabold text-xl md:text-[28px]">
                   Headless CMS & Frameworks
                 </h3>
                 <p className="text-[16px] md:w-[250px] pt-2">
@@ -406,7 +396,7 @@ const StickyTabSections = () => {
                 </p>
               </div>
               <div className="mb-3 md:mb-14">
-                <h3 className="font-bold text-xl md:text-[28px]">
+                <h3 className="font-extrabold text-xl md:text-[28px]">
                   API Integrations
                 </h3>
                 <p className="text-[16px] md:w-[250px] pt-2">
@@ -415,7 +405,7 @@ const StickyTabSections = () => {
                 </p>
               </div>
               <div className="mb-3 md:mb-14">
-                <h3 className="font-bold text-xl md:text-[28px]">
+                <h3 className="font-extrabold text-xl md:text-[28px]">
                   Testing & QA
                 </h3>
                 <p className="text-[16px] md:w-[250px] pt-2">
@@ -424,7 +414,7 @@ const StickyTabSections = () => {
                 </p>
               </div>
               <div className="mb-3 md:mb-14">
-                <h3 className="font-bold text-xl md:text-[28px]">
+                <h3 className="font-extrabold text-xl md:text-[28px]">
                   DevOps & Cloud Setup
                 </h3>
                 <p className="text-[16px] md:w-[250px] pt-2">
@@ -435,7 +425,7 @@ const StickyTabSections = () => {
             </div>
           </div>
           <div>
-            <h1 className="text-xl font-bold md:font-extrabold md:leading-tight mt-16 md:mt-24 md:text-[40px] md:w-[600px]">
+            <h1 className="text-xl font-extrabold md:font-extrabold md:leading-tight mt-16 md:mt-24 md:text-[40px] md:w-[600px]">
               Clients who trusted us to build their products
             </h1>
             <div className="grid grid-cols-3 mt-10 md:ml-5 md:space-y-3  md:grid-cols-4 gap-10 md:gap-14">
@@ -506,7 +496,7 @@ const StickyTabSections = () => {
             </p>
             <div className="grid md:grid-cols-2  gap-7 md:gap-10 mt-10">
               <div className="mb-3 md:mb-16">
-                <h3 className="font-bold text-xl md:text-[28px]">
+                <h3 className="font-extrabold text-xl md:text-[28px]">
                   Go-to-Market Launch Strategy
                 </h3>
                 <p className="text-[16px] md:w-[250px] pt-2">
@@ -515,7 +505,7 @@ const StickyTabSections = () => {
                 </p>
               </div>
               <div className="mb-3 md:mb-14">
-                <h3 className="font-bold text-xl md:text-[28px]">
+                <h3 className="font-extrabold text-xl md:text-[28px]">
                   Messaging & Positioning
                 </h3>
                 <p className="text-[16px] md:w-[250px] pt-2">
@@ -533,7 +523,7 @@ const StickyTabSections = () => {
                 </p>
               </div>
               <div className="mb-3 md:mb-14">
-                <h3 className="font-bold text-xl md:text-[28px]">
+                <h3 className="font-extrabold text-xl md:text-[28px]">
                   SEO & Organic Content
                 </h3>
                 <p className="text-[16px] md:w-[250px] pt-2">
@@ -542,7 +532,7 @@ const StickyTabSections = () => {
                 </p>
               </div>
               <div className="mb-3 md:mb-14">
-                <h3 className="font-bold text-xl md:text-[28px]">
+                <h3 className="font-extrabold text-xl md:text-[28px]">
                   Social Strategy & Community
                 </h3>
                 <p className="text-[16px] md:w-[250px] pt-2">
@@ -551,7 +541,7 @@ const StickyTabSections = () => {
                 </p>
               </div>
               <div className="mb-3 md:mb-14">
-                <h3 className="font-bold text-xl md:text-[28px]">
+                <h3 className="font-extrabold text-xl md:text-[28px]">
                   Explainers, Reels & Motion Assets
                 </h3>
                 <p className="text-[16px] md:w-[250px] pt-2">
@@ -560,7 +550,7 @@ const StickyTabSections = () => {
                 </p>
               </div>
               <div className="mb-3 md:mb-14">
-                <h3 className="font-bold text-xl md:text-[28px]">
+                <h3 className="font-extrabold text-xl md:text-[28px]">
                   Data & Funnel Analytics
                 </h3>
                 <p className="text-[16px] md:w-[250px] pt-2">
@@ -571,9 +561,6 @@ const StickyTabSections = () => {
             </div>
           </div>
           <div>
-            {/* <h1 className="text-xl font-bold md:font-extrabold md:leading-tight mt-16 md:mt-24 md:text-[40px] md:w-[600px]">
-              Clients who trusted us to build their products
-            </h1> */}
             {/* <div className="grid grid-cols-3 mt-10 md:ml-5 md:space-y-3  md:grid-cols-4 gap-10 md:gap-14">
               <img src="/design/b1.svg" alt="C1" className="h-8 md:h-7 " />
               <img src="/design/b2.svg" alt="C1" className="h-8 md:h-7 " />

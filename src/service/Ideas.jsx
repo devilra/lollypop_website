@@ -3,8 +3,8 @@ import React from "react";
 const Ideas = () => {
   return (
     <div>
-      <div className="md:ml-44 mt-10 md:mt-28">
-        <h1 className="text-2xl md:text-[40px] md:w-[600px] md:leading-tight font-bold">
+      <div className="md:ml-72 mt-10 md:mt-28">
+        <h1 className="text-2xl md:text-[40px] md:w-[600px] md:leading-[50px] font-extrabold">
           Call to Action Section
         </h1>
         <p className="py-5 md:text-[24px] md:w-[500px]">
@@ -12,7 +12,7 @@ const Ideas = () => {
           idea or refining what already exists — our team is here to help you
           shape, design, and grow your product with clarity and care.
         </p>
-        <h1 className="text-2xl md:text-[40px] md:w-[600px] md:leading-tight font-bold">
+        <h1 className="text-2xl md:text-[40px] md:w-[600px] md:leading-[50px] font-extrabold">
           Our Work Preview
         </h1>
         <p className="py-5 md:text-[24px] md:w-[500px]">
@@ -21,7 +21,7 @@ const Ideas = () => {
           brands to bring clarity, usability, and long-term value to users.
         </p>
 
-        <p className="py-2 font-bold text-xl md:text-2xl">Case studies:</p>
+        <p className="py-2 font-extrabold text-xl md:text-2xl">Case studies:</p>
         <ul className="mb-4 list-disc marker:text-[10px] ml-2 md:ml-5">
           <li>Securra Health</li>
           <li>Aspirestar</li>
@@ -29,7 +29,7 @@ const Ideas = () => {
           <li>Maestro’s Music</li>
         </ul>
 
-        <h1 className="font-bold text-[24px] md:text-[28px]">
+        <h1 className="font-extrabold text-[24px] md:text-[28px]">
           Introduction Section
         </h1>
         <h1 className="font-semibold text-[15px] md:text-[18px]">
