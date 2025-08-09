@@ -2,6 +2,7 @@ import React from "react";
 import Research from "./Research";
 import LatestWork from "./LatestWork";
 import Studio from "./Studio";
+import AutoPlayMethods from "./Carosel";
 
 const Hero = () => {
   return (

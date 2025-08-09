@@ -2,6 +2,7 @@ import React from "react";
 import Navbar from "../components/Navbar";
 import Hero from "../components/Hero";
 import Studio from "../components/Studio";
+import ImageSlider from "../components/Studio";
 
 const Home = () => {
   return (
@@ -11,6 +12,7 @@ const Home = () => {
           <Navbar />
           <Hero />
         </div>
+
         <Studio />
       </div>
     </div>
