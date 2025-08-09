@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { Link, useNavigate } from "react-router-dom";
+import { Link, useNavigate, NavLink } from "react-router-dom";
 import { HiMenu, HiX } from "react-icons/hi";
 
 const Navbar = () => {
@@ -22,22 +22,42 @@ const Navbar = () => {
 
         {/* Desktop Links */}
         <div className="hidden md:flex gap-6 text-gray-700">
-          <Link
+          <NavLink
             to="/service"
-            className="hover:text-[#FD2E35] transition duration-700">
+            className={({ isActive }) =>
+              isActive
+                ? "text-[#FD2E35] underline underline-offset-4 transition duration-700"
+                : "hover:text-[#FD2E35] transition duration-700"
+            }>
             Services
-          </Link>
-          <Link className="hover:text-[#FD2E35] transition duration-700">
+          </NavLink>
+          <NavLink
+            to="/project-enquiry"
+            className={({ isActive }) =>
+              isActive
+                ? "text-[#FD2E35] underline underline-offset-4 transition duration-700"
+                : "hover:text-[#FD2E35] transition duration-700"
+            }>
             Projects
-          </Link>
-          <Link
+          </NavLink>
+          <NavLink
             to="/process"
-            className="hover:text-[#FD2E35] transition duration-700">
+            className={({ isActive }) =>
+              isActive
+                ? "text-[#FD2E35] underline underline-offset-4 transition duration-700"
+                : "hover:text-[#FD2E35] transition duration-700"
+            }>
             Process
-          </Link>
-          <Link className="hover:text-[#FD2E35] transition duration-700">
+          </NavLink>
+          <NavLink
+            to="/industries"
+            className={({ isActive }) =>
+              isActive
+                ? "text-[#FD2E35] underline underline-offset-4 transition duration-700"
+                : "hover:text-[#FD2E35] transition duration-700"
+            }>
             Industries
-          </Link>
+          </NavLink>
           <Link to="/" className="text-[#FD2E35] ">
             Let's Talk
             <div className="w-8 h-[1px] bg-[#FD2E35] mt-1"></div>
@@ -65,9 +85,9 @@ const Navbar = () => {
         }`}>
         <div className="flex justify-between   items-center p-6 border-b">
           <div className="text-lg font-semibold text-[#FD2E35]">
-            <Link to="/">
+            <NavLink to="/">
               <img src="/UCD-Logo.png" alt="UCD" className="h-10 md:h-12" />
-            </Link>
+            </NavLink>
           </div>
           <button
             onClick={() => setIsOpen(false)}
@@ -77,34 +97,56 @@ const Navbar = () => {
         </div>
         <div className="flex bg-[#FD2E35] md:h-[84vh]  flex-col md:flex-row md:justify-evenly">
           <div className="flex flex-col items-center gap-6 pt-10 w-full font-bold text-white md:space-y-5  md:text-[36px] text-[16px]">
-            <Link
-              className="hover:opacity-60 transition duration-500"
+            <NavLink
+              className={({ isActive }) =>
+                isActive
+                  ? "text-white underline underline-offset-4 transition duration-700"
+                  : "text-[#FD2E35] transition duration-700"
+              }
               to="/"
               onClick={() => setIsOpen(false)}>
               Home
-            </Link>
-            <Link
-              className="hover:opacity-60 transition duration-500"
+            </NavLink>
+            <NavLink
+              className={({ isActive }) =>
+                isActive
+                  ? "text-white underline underline-offset-4 transition duration-700"
+                  : "hover:text-[#FD2E35] transition duration-700"
+              }
               onClick={() => setIsOpen(false)}
               to="/service">
               Services
-            </Link>
-            <Link
-              className="hover:opacity-60 transition duration-500"
+            </NavLink>
+            <NavLink
+              to="/project-enquiry"
+              className={({ isActive }) =>
+                isActive
+                  ? "text-white underline underline-offset-4 transition duration-700"
+                  : "hover:text-[#FD2E35] transition duration-700"
+              }
               onClick={() => setIsOpen(false)}>
               Projects
-            </Link>
-            <Link
+            </NavLink>
+            <NavLink
               to="/process"
-              className="hover:opacity-60 transition duration-500"
+              className={({ isActive }) =>
+                isActive
+                  ? "text-white underline underline-offset-4 transition duration-700"
+                  : "hover:text-[#FD2E35] transition duration-700"
+              }
               onClick={() => setIsOpen(false)}>
               Process
-            </Link>
-            <Link
-              className="hover:opacity-60 transition duration-500"
+            </NavLink>
+            <NavLink
+              to="/industries"
+              className={({ isActive }) =>
+                isActive
+                  ? "text-white underline underline-offset-4 transition duration-700"
+                  : "hover:text-[#FD2E35] transition duration-700"
+              }
               onClick={() => setIsOpen(false)}>
               Industries
-            </Link>
+            </NavLink>
             <Link
               to="/"
               className="text-[#FD2E35] underline underline-offset-4"
@@ -120,7 +162,10 @@ const Navbar = () => {
               </p>
               <div className="ml-5  my-10 md:my-0">
                 <button
-                  onClick={() => navigate("/project-enquiry")}
+                  onClick={() => {
+                    setIsOpen(false);
+                    navigate("/project-enquiry");
+                  }}
                   className="text-[#FD2E35] transition duration-700 hover:bg-[#FD2E35] hover:text-white px-7 rounded-full py-3 border-[2px] border-[#FD2E35] font-bold bg-[#221429]">
                   Get in touch
                 </button>

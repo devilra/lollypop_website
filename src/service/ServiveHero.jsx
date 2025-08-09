@@ -14,7 +14,7 @@ const ServiceHero = () => {
         </h1>
         <div className="flex justify-start items-start ">
           <span className="md:w-[5px] hidden md:h-12 md:mr-10 md:mt-10 md:inline-block md:bg-[#FD2E35] rounded-full"></span>
-          <h1 className="md:mt-5 text-3xl py-5 md:py-0 font-bold text-[#221429] md:text-4xl">
+          <h1 className="md:mt-5 md:w-[700px] text-3xl py-5 md:py-0 font-extrabold md:leading-[50px] text-[#221429] md:text-[50px]">
             We blend research,
             <br />
             creativity, technology, and marketing to craft user-first products

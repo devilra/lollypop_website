@@ -3,12 +3,12 @@ import Domains from "./Domains";
 
 const Achievement = () => {
   return (
-    <div className="text-black pb-32">
+    <div className="text-white pb-32">
       <div className="px-5 md:px-0 mt-20 md:mt-36 md:ml-32 ">
-        <h1 className="text-white md:text-black text-2xl md:text-5xl font-bold">
+        <h1 className="text-white  text-2xl md:text-5xl font-bold">
           Our Achievements
         </h1>
-        <p className="pt-5 md:w-[500px] text-xl text-neutral-300 md:text-black md:text-2xl">
+        <p className="pt-5 md:w-[500px] text-xl text-white  md:text-2xl">
           Our design solutions have not only won hearts and people, but also
           many awards and recognitions for exceptional digital experiences.
         </p>
@@ -18,7 +18,7 @@ const Achievement = () => {
           <img
             src="/studio/award.svg"
             alt="award"
-            className="h-8 ml-14 md:ml-32"
+            className="h-8 ml-14 md:ml-32 invert brightness-0"
           />
           <h1 className="font-bold text-xl text-center py-4">
             India's Best Design Projects 2025
@@ -31,7 +31,7 @@ const Achievement = () => {
           <img
             src="/studio/award.svg"
             alt="award"
-            className="h-8 ml-14 md:ml-32"
+            className="h-8 ml-14 md:ml-32 invert brightness-0"
           />
           <h1 className="font-bold text-xl text-center py-4">
             DNA Paris Design Winner
@@ -44,7 +44,7 @@ const Achievement = () => {
           <img
             src="/studio/award.svg"
             alt="award"
-            className="h-8 ml-14 md:ml-32"
+            className="h-8 ml-14 md:ml-32 invert brightness-0"
           />
           <h1 className="font-bold text-xl text-center py-4">
             Silver A'Design Winner
@@ -57,7 +57,7 @@ const Achievement = () => {
           <img
             src="/studio/award.svg"
             alt="award"
-            className="h-8 ml-14 md:ml-32"
+            className="h-8 ml-14 md:ml-32 invert brightness-0"
           />
           <h1 className="font-bold text-xl text-center py-4">
             India's Best Design Projects 2025
@@ -70,7 +70,7 @@ const Achievement = () => {
           <img
             src="/studio/award.svg"
             alt="award"
-            className="h-8 ml-14 md:ml-32"
+            className="h-8 ml-14 md:ml-32 invert brightness-0"
           />
           <h1 className="font-bold text-xl text-center py-4">
             DNA Paris Design Honorable Mention
@@ -83,7 +83,7 @@ const Achievement = () => {
           <img
             src="/studio/award.svg"
             alt="award"
-            className="h-8 ml-14 md:ml-32"
+            className="h-8 ml-14 md:ml-32 invert brightness-0"
           />
           <h1 className="font-bold text-xl text-center py-4">
             Top B2B Companies
@@ -96,7 +96,7 @@ const Achievement = () => {
           <img
             src="/studio/award.svg"
             alt="award"
-            className="h-8 ml-14 md:ml-32"
+            className="h-8 ml-14 md:ml-32 invert brightness-0"
           />
           <h1 className="font-bold text-xl text-center py-4">
             IDA Honorable Mention
@@ -109,7 +109,7 @@ const Achievement = () => {
           <img
             src="/studio/award.svg"
             alt="award"
-            className="h-8 ml-14 md:ml-32"
+            className="h-8 ml-14 md:ml-32 invert brightness-0"
           />
           <h1 className="font-bold text-xl text-center py-4">
             IDA Silver Winner
@@ -122,7 +122,7 @@ const Achievement = () => {
           <img
             src="/studio/award.svg"
             alt="award"
-            className="h-8 ml-14 md:ml-32"
+            className="h-8 ml-14 md:ml-32 invert brightness-0"
           />
           <h1 className="font-bold text-xl text-center py-4">
             DNA Paris Design Winner
@@ -135,7 +135,7 @@ const Achievement = () => {
           <img
             src="/studio/award.svg"
             alt="award"
-            className="h-8 ml-14 md:ml-32"
+            className="h-8 ml-14 md:ml-32 invert brightness-0"
           />
           <h1 className="font-bold text-xl text-center py-4">
             DNA Paris Design Winner
@@ -148,7 +148,7 @@ const Achievement = () => {
           <img
             src="/studio/award.svg"
             alt="award"
-            className="h-8 ml-14 md:ml-32"
+            className="h-8 ml-14 md:ml-32 invert brightness-0"
           />
           <h1 className="font-bold text-xl text-center py-4">
             Top B2B Companies
@@ -159,7 +159,7 @@ const Achievement = () => {
           <img
             src="/studio/award.svg"
             alt="award"
-            className="h-8 ml-14 md:ml-32"
+            className="h-8 ml-14 md:ml-32 invert brightness-0"
           />
           <h1 className="font-bold text-xl text-center py-4">
             DNA Paris Design Winner
@@ -172,7 +172,7 @@ const Achievement = () => {
           <img
             src="/studio/award.svg"
             alt="award"
-            className="h-8 ml-14 md:ml-32"
+            className="h-8 ml-14 md:ml-32 invert brightness-0"
           />
           <h1 className="font-bold text-xl text-center py-4">
             Interface Design Award
@@ -183,7 +183,7 @@ const Achievement = () => {
           <img
             src="/studio/award.svg"
             alt="award"
-            className="h-8 ml-14 md:ml-32"
+            className="h-8 ml-14 md:ml-32 invert brightness-0"
           />
           <h1 className="font-bold text-xl text-center py-4">
             UX UI Design Leaders
@@ -194,7 +194,7 @@ const Achievement = () => {
           <img
             src="/studio/award.svg"
             alt="award"
-            className="h-8 ml-14 md:ml-32"
+            className="h-8 ml-14 md:ml-32 invert brightness-0"
           />
           <h1 className="font-bold text-xl text-center py-4">
             Digital Interaction Award
@@ -207,7 +207,7 @@ const Achievement = () => {
           <img
             src="/studio/award.svg"
             alt="award"
-            className="h-8 ml-14 md:ml-32"
+            className="h-8 ml-14 md:ml-32 invert brightness-0"
           />
           <h1 className="font-bold text-xl text-center py-4">
             Best Design Agency - Gold
@@ -229,7 +229,9 @@ const Achievement = () => {
           className="h-full md:h-[400px] md:w-[700px] md:ml-36 w-full my-5"
         />
       </div>
-      <Domains />
+      <div className="text-[#221429]">
+        <Domains />
+      </div>
     </div>
   );
 };
