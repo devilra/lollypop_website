@@ -322,7 +322,7 @@ const StickyTabSections = () => {
                     className="h-[300px]  rounded-md md:w-[400px] md:h-[230px] "
                   />
                 </div>
-                <h1 className="text-[22px] pl-20 md:pl-14 py-2 text-white font-bold">
+                <h1 className="text-[22px] pl-20 md:pl-24 py-2 text-white font-bold">
                   Rama Kini
                 </h1>
                 <p className="text-[14px] pl-2 text-center md:pl-1 text-white">
@@ -624,7 +624,7 @@ const StickyTabSections = () => {
             We’ve worked across domains, but what ties our projects together is
             a shared focus on people their needs, behaviors, and goals.
           </p>
-          <ul className="my-5 list-disc marker:text-[11px] space-y-2 ml-2 text-neutral-600 text-[14px]">
+          <ul className="my-5 list-disc marker:text-[11px]  space-y-2 ml-5 text-neutral-600 text-[14px]">
             <li>Health & Wellness</li>
             <li>EdTech & Learning Platforms</li>
             <li>Fintech & Insurance</li>

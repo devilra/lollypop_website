@@ -50,7 +50,7 @@ const ProcessSticky = () => {
 
   return (
     <div>
-      <div className="bg-[#f8f4f3] text-[#221429] md:w-[700px]  mt-14 md:mt-24 ">
+      <div className="bg-[#f8f4f3] text-[#221429] md:w-[800px] md:ml-[80px]  mt-14 md:mt-24 ">
         {/* Sticky Tab Bar */}
         <div
           ref={tabBarRef}

@@ -48,11 +48,12 @@ const Coresettings = {
 const Studio = () => {
   return (
     // Outer div full width background
+
     <div className="mt-10 md:mt-36 bg-[#221429] w-full text-white md:text-black over">
       {/* Inner div for centered content */}
-      <div className="max-w-[1000px] text-white mx-auto h-[3420px] md:h-[3450px]">
+      <div className="max-w-[1000px] text-white mx-auto h-[3420px] md:h-[3570px]">
         <div className="md:w-[700px] md:ml-24">
-          <p className="font-extrabold text-2xl px-4 md:px-0 pt-16 pb-5 text-white md:leading-[55px] tracking-[0.3px] md:text-[50px]">
+          <p className="font-extrabold text-2xl px-4 md:px-0 pt-16 md:pt-28 pb-5 text-white md:leading-[55px] tracking-[0.3px] md:text-[50px]">
             UCDGlobal Design Studio is a Leading UI UX design agency driven by
             innovation, impact, culture, and creativity!
           </p>

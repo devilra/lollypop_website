@@ -13,8 +13,8 @@ const ServiceHero = () => {
           First
         </h1>
         <div className="flex justify-start items-start ">
-          <span className="md:w-[5px] hidden md:h-12 md:mr-10 md:mt-10 md:inline-block md:bg-[#FD2E35] rounded-full"></span>
-          <h1 className="md:mt-5 md:w-[700px] text-3xl py-5 md:py-0 font-extrabold md:leading-[50px] text-[#221429] md:text-[50px]">
+          <span className="md:w-[5px] hidden md:h-12 md:mr-12 md:mt-8 md:inline-block md:bg-[#FD2E35] rounded-full"></span>
+          <h1 className="md:mt-5 md:w-[700px] text-3xl py-5 md:py-0 font-extrabold md:leading-[55px] text-[#221429] md:text-[50px]">
             We blend research,
             <br />
             creativity, technology, and marketing to craft user-first products
@@ -40,7 +40,7 @@ const ServiceHero = () => {
               <p className="text-base sm:text-lg text-[#221429] mt-2">
                 Your next big digital move starts here.
               </p>
-              <p className="text-[12px] text-[#535153] mt-3 md:text-[18px]">
+              <p className="text-[12px] text-[#535153] md:w-[900px] mt-3 md:text-[18px]">
                 Whether you're crafting a new idea or refining what already
                 exists — our team is here to help you shape, design, and grow
                 your product with clarity and care.

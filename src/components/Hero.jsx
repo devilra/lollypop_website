@@ -9,8 +9,8 @@ const Hero = () => {
     <section className="md:px-2 py-5 md:py-12">
       <div className="md:pl-40">
         <div className=" font-bold flex justify-start items-start ">
-          <span className="md:w-[5px] hidden md:h-12 md:mr-10 md:mt-10 md:inline-block md:bg-[#FD2E35] rounded-full"></span>
-          <h1 className="md:mt-7 text-2xl font-extrabold md:leading-[70px] md:pb-5 text-[#221429] md:w-[800px] md:text-[65px]">
+          <span className="md:w-[5px] hidden md:h-12 md:mr-10 md:mt-12 md:inline-block md:bg-[#FD2E35] rounded-full"></span>
+          <h1 className="md:mt-7 text-2xl font-extrabold md:leading-[75px] md:pb-5 text-[#221429] md:w-[800px] md:text-[65px]">
             Crafting Digital Products That Feel Natural, Work
             Seamlessly,Experiences <br />
             <span className="text-2xl md:text-[65px] text-[#FD2E35]">

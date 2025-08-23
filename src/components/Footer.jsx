@@ -9,7 +9,7 @@ import {
 
 export default function Footer() {
   return (
-    <footer className=" text-[#221429] md:mt-24  px-6 py-10 md:p-0 ">
+    <footer className=" text-[#221429] md:mt-24  px-6 py-10 md:pb-16 ">
       {/* Section: Social Media */}
       <div className="text-center md:text-left">
         <h4 className="font-medium text-lg mb-4 text-center">

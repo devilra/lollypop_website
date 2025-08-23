@@ -4,19 +4,19 @@ import Footer from "./Footer";
 
 const Domains = () => {
   return (
-    <div className="mt-16 md:mt-40">
+    <div className="mt-16 md:mt-56">
       <div>
-        <h1 className="text-3xl md:w-[600px] md:ml-36 text-[#221429] font-bold md:text-5xl leading-2 md:leading-1">
+        <h1 className="text-3xl md:w-[650px] md:ml-36 text-[#221429] tracking-normal font-[800] md:text-[50px] leading-2 md:leading-[56px]">
           Our work spans across 15+ domains and 8+ industries in transforming
           brands digitally.
         </h1>
-        <p className="py-7 md:w-[700px] md:ml-36 text-lg md:text-2xl w-full">
+        <p className="py-7 md:w-[760px] md:ml-36 text-lg md:text-2xl w-full">
           Our knowledge & experience across industries empower us to take up new
           challenges and build impactful products and solutions.
         </p>
-        <div className="mt-5 md:flex md:ml-36 md:w-[700px] md:justify-between gap-10 w-full">
+        <div className="mt-5 md:flex md:ml-36 md:w-[760px] md:justify-between  space-x-10 md:space-x-20  w-full">
           <div className="">
-            <h1 className="font-bold text-lg md:text-2xl">
+            <h1 className="font-bold text-lg md:text-[22px]">
               Healthcare and Wellness
             </h1>
             <div className="w-14 mt-1 h-[2px] bg-black rounded-2xl "></div>
@@ -28,7 +28,7 @@ const Domains = () => {
             </p>
           </div>
           <div className="mt-5 md:mt-0">
-            <h1 className="font-bold text-lg md:text-2xl">
+            <h1 className="font-bold text-lg md:text-[22px]">
               Fintech and Banking
             </h1>
             <div className="w-14 mt-1 h-[2px] bg-black rounded-2xl "></div>
@@ -39,9 +39,9 @@ const Domains = () => {
             </p>
           </div>
         </div>
-        <div className="mt-5 md:flex md:justify-between md:ml-36 md:w-[700px] gap-10 w-full md:mt-20">
-          <div className="">
-            <h1 className="font-bold text-lg md:text-2xl">
+        <div className="mt-5 md:flex md:ml-36 md:w-[760px] md:justify-between space-x-10 md:space-x-20 md:space-y-20  w-full">
+          <div className="md:mt-20">
+            <h1 className="font-bold text-lg md:text-[22px]">
               Healthcare and Wellness
             </h1>
             <div className="w-14 mt-1 h-[2px] bg-black rounded-2xl "></div>
@@ -53,7 +53,7 @@ const Domains = () => {
             </p>
           </div>
           <div className="mt-5 md:mt-0">
-            <h1 className="font-bold text-lg md:text-2xl">
+            <h1 className="font-bold text-lg md:text-[22px]">
               Fintech and Banking
             </h1>
             <div className="w-14 mt-1 h-[2px] bg-black rounded-2xl "></div>
@@ -73,7 +73,7 @@ const Domains = () => {
       </div>
       <div className="mt-16 md:mt-28">
         <div className="md:ml-36">
-          <h1 className="text-2xl md:text-[52px]  text-[#221429] font-bold">
+          <h1 className="text-2xl md:text-[50px]  text-[#221429] font-[800]">
             Our Stories
           </h1>
           <p className="md:py-10 py-5 text-[#221429] text-xl md:text-2xl">
